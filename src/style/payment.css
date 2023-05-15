@@ -1,0 +1,201 @@
+
+.main{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    height: 60px;
+    justify-content: space-between;
+}
+nav .nav-left{
+    width: 350px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+nav .nav-left img{
+    width: 140px;
+    height: 50px;
+}
+nav .nav-left select {
+    border: none;
+    font-size: 15px;
+}
+
+nav .nav-right {
+    width: 300px;
+  
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+nav .nav-right img{
+    width: 15px;
+}
+nav .nav-right a{
+    text-decoration: none;
+    color: black;
+}
+nav .nav-right button{
+    background:linear-gradient(0deg,#0048FF,#0096FF);
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+section{
+background-image:url("../images/background.jpg");
+display: flex;
+height: 780px;
+align-items: center;
+width: 100vw;
+background-size: cover;
+background-repeat: no-repeat;
+}
+section .left {
+color: white;
+width: 60%;
+padding: 20px 70px;
+margin-bottom: 230px;
+}
+section .left p{
+    font-size: 40px;
+    width: 550px;
+}
+section .left h5 img {
+    width: 45px;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+section .right{
+    height: 720px;
+    padding-top: 10px;
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    
+}
+section .right .sign-up{
+    margin-top: 10px;
+}
+section .right .sign-up a{
+    text-decoration: none;
+    color: black;
+}
+section .right .sign-up h5{
+    background-color:#1b5eb6 ;
+    color: white;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+}
+fieldset{
+  width: 400px;
+    padding: 5px;
+    margin:5px auto;
+    border: 2px solid black;
+    height: 80px;
+    border-radius: 8px;
+}
+legend{
+        float: initial;
+        border: 1px green;
+        border-radius: 7px;
+        display: flex;
+        padding-left: 20px;
+       align-items: center;
+        width: 100px;
+        height: 20px;
+        background-color: #de4314;
+    font-size: 10px;
+    color: white;
+}
+c{
+    color: #bebebe;
+}
+input[type="checkbox"]{
+    height: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+    accent-color: green;
+}
+.box label{
+    font-weight: 500;
+}
+.first-field {
+    color: #bebebe;
+}
+.first-field fieldset{
+    background-color: #e7e7e7;
+    border-color: #bebebe;
+
+}
+.first-field fieldset input[type="checkbox"]{
+    accent-color: #e7e7e7;
+}
+
+
+.second-field fieldset{
+    background-color: #87f87d88;
+    border-color: #5abb21;
+
+}
+.second-field fieldset input[type="checkbox"]{
+    accent-color: #5abb21;
+}
+.second-field fieldset legend{
+    background-color: #5abb21;
+}
+.third-field fieldset{
+    height: 60px;
+}
+.forth-field fieldset{
+    height: 60px;
+}
+hr{
+    height: 2px;
+    border: 1px solid black ;
+    width: 75%;
+    margin:20px auto;
+
+}
+.fifth-field fieldset{
+    font-size: 12px;
+    height: 50px;
+    border-color: #de4313;
+}
+.cc{
+    color: #de4313;
+}
+.bc{
+    background:linear-gradient(310deg,#de4313,#fec163)
+}
+.one{
+    border-color: #de4313;
+    color: #de4313;
+    width: 180px;
+    background-color: white;
+}
+.two{
+    border-color: #42aa06;
+    background-color: #42aa06;
+    color: white;
+    width: 180px;
+}
+.raz{
+    width: 80px;
+    margin-right: 340px;
+    margin-top: 10px;
+}
+
+
